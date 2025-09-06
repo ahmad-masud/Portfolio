@@ -1,0 +1,60 @@
+[
+  {
+    "category": "Programming Languages",
+    "items": [
+      "C",
+      "C++",
+      "Java",
+      "JavaScript",
+      "TypeScript",
+      "Python",
+      "Ruby",
+      "Lua",
+      "Go"
+    ]
+  },
+  {
+    "category": "Frontend Development",
+    "items": [
+      "HTML",
+      "CSS",
+      "React.js",
+      "Next.js",
+      "Gatsby",
+      "Tailwind CSS",
+      "Bootstrap"
+    ]
+  },
+  {
+    "category": "Backend Development",
+    "items": ["Node.js", "Express.js", "Spring", "GraphQL", "FastAPI"]
+  },
+  {
+    "category": "Databases",
+    "items": ["MySQL", "PostgreSQL", "SQLite", "MongoDB"]
+  },
+  {
+    "category": "DevOps & Cloud",
+    "items": [
+      "Git",
+      "GitHub",
+      "BitBucket",
+      "Jenkins",
+      "Docker",
+      "Kubernetes",
+      "JFrog",
+      "Linux",
+      "Google Cloud",
+      "Firebase",
+      "Jira"
+    ]
+  },
+  {
+    "category": "Data Science & Machine Learning",
+    "items": ["Pandas", "Scikit-learn", "PyTorch", "MATLAB"]
+  },
+  {
+    "category": "Tools",
+    "items": ["Postman", "Webpack", "Git"]
+  }
+]

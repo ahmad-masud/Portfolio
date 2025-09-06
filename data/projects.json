@@ -1,0 +1,182 @@
+[
+  {
+    "title": "SurfMarc",
+    "desc": "A web app for product info, price tracking, and reviews.",
+    "tags": [
+      "TypeScript",
+      "Python",
+      "Next.js",
+      "FastAPI",
+      "Node.js",
+      "Supabase",
+      "Tailwind",
+      "Docker",
+      "playwright",
+      "PyTorch",
+      "huggingface-transformers"
+    ],
+    "links": [
+      {
+        "label": "Live",
+        "url": "https://surfmarc.vercel.app/"
+      },
+      {
+        "label": "GitHub",
+        "url": "https://github.com/ahmad-masud/SurfMarc"
+      }
+    ]
+  },
+  {
+    "title": "AppliSense",
+    "desc": "A job application tracker with stats and progress tracking.",
+    "tags": ["JavaScript", "React", "Express", "Node.js", "MongoDB"],
+    "links": [
+      {
+        "label": "Live",
+        "url": "https://applisense.vercel.app/"
+      },
+      {
+        "label": "GitHub",
+        "url": "https://github.com/ahmad-masud/AppliSense"
+      }
+    ]
+  },
+  {
+    "title": "CompCode",
+    "desc": "Practice coding interviews with curated LeetCode problems.",
+    "tags": [
+      "React",
+      "Express",
+      "MongoDB",
+      "Node.js",
+      "Javascript",
+      "Axios",
+      "GitHub API",
+      "Stripe"
+    ],
+    "links": [
+      {
+        "label": "Live",
+        "url": "https://compcode.tech"
+      },
+      {
+        "label": "GitHub",
+        "url": "https://github.com/ahmad-masud/CompCode"
+      }
+    ]
+  },
+  {
+    "title": "Linux Memory Allocator",
+    "desc": "A multithreaded C++ memory allocator with advanced strategies.",
+    "tags": ["Linux", "C++", "Posix", "Pthread"],
+    "links": [
+      {
+        "label": "GitHub",
+        "url": "https://github.com/ahmad-masud/Linux-Memory-Allocator"
+      }
+    ]
+  },
+  {
+    "title": "Linux Shell",
+    "desc": "A simple Linux shell with process handling and history.",
+    "tags": ["C", "Linux", "Shell"],
+    "links": [
+      {
+        "label": "GitHub",
+        "url": "https://github.com/ahmad-masud/Linux-Shell"
+      }
+    ]
+  },
+  {
+    "title": "SFU Hikers Hub",
+    "desc": "A platform for SFU Hiking Club to organize events and share info.",
+    "tags": [
+      "Spring Boot",
+      "Java",
+      "Javascript",
+      "PostgreSQL",
+      "Docker",
+      "Google Maps API"
+    ],
+    "links": [
+      {
+        "label": "GitHub",
+        "url": "https://github.com/TonyDEChen/SFU-Hikers-Hub"
+      }
+    ]
+  },
+  {
+    "title": "Research Grant Council Database",
+    "desc": "A database system to manage grant competitions and proposals.",
+    "tags": ["Python", "Jupyter Notebook", "SQLite"],
+    "links": [
+      {
+        "label": "GitHub",
+        "url": "https://github.com/ahmad-masud/Research-Grant-Council-Database"
+      }
+    ]
+  },
+  {
+    "title": "TempTalk",
+    "desc": "A disposable web chat app for instant conversations.",
+    "tags": ["React", "Firebase", "Node.js", "Javascript"],
+    "links": [
+      {
+        "label": "GitHub",
+        "url": "https://github.com/ahmad-masud/TempTalk"
+      }
+    ]
+  },
+  {
+    "title": "Database Schema Constructor",
+    "desc": "A tool for visually creating and exporting database schemas.",
+    "tags": ["React", "Firebase", "Node.js", "jsPlumb", "Javascript"],
+    "links": [
+      {
+        "label": "Live",
+        "url": "https://database-schema-constructor.netlify.app"
+      },
+      {
+        "label": "GitHub",
+        "url": "https://github.com/ahmad-masud/Database-Schema-Constructor"
+      }
+    ]
+  },
+  {
+    "title": "Quant Market Predictor",
+    "desc": "A tool to forecast stock prices using linear regression.",
+    "tags": ["Python", "Streamlit", "Pandas", "Numpy", "Scikit-learn"],
+    "links": [
+      {
+        "label": "Live",
+        "url": "https://quantmarketpredictor.streamlit.app"
+      },
+      {
+        "label": "GitHub",
+        "url": "https://github.com/ahmad-masud/Quant-Market-Predictor"
+      }
+    ]
+  },
+  {
+    "title": "DrawAnt",
+    "desc": "A simple Java drawing program with multiple tools.",
+    "tags": ["Java", "Swing", "Ant"],
+    "links": [
+      {
+        "label": "GitHub",
+        "url": "https://github.com/ahmad-masud/DrawAnt"
+      }
+    ]
+  },
+  {
+    "title": "Sorting Visualizer",
+    "desc": "A desktop app to visualize sorting algorithms.",
+    "tags": ["Java", "Swing", "Maven"],
+    "links": [
+      {
+        "label": "GitHub",
+        "url": "https://github.com/ahmad-masud/Sorting-Visualizer"
+      }
+    ]
+  }
+]

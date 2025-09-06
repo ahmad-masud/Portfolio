@@ -1,0 +1,21 @@
+[
+  {
+    "school": "Simon Fraser University",
+    "degree": "Bachelor of Science",
+    "field": "Computer Science",
+    "period": "2022 to 2027",
+    "location": "Burnaby, BC",
+    "points": [
+      "President's Honour Roll (top 2% in faculty)",
+      "Coursework: Data Structures and Algorithms, Software Engineering, Computer Systems, Operating Systems, Database Systems, Artificial Intelligence, Data Communications and Networking"
+    ]
+  },
+  {
+    "school": "Burnaby North Secondary School",
+    "degree": "High School Diploma",
+    "field": "",
+    "period": "2017 to 2022",
+    "location": "Burnaby, BC",
+    "points": ["Cumulative GPA: 3.97/4.0"]
+  }
+]
