@@ -1,4 +1,19 @@
 [
+    {
+    "title": "KVStore",
+    "desc": "A lightweight, extensible, and customizable Key-Value Store library in Go, served over gRPC.",
+    "tags": ["Go", "gRPC", "TCP/IP", "Protocol Buffers"],
+    "links": [
+      {
+        "label": "Docs",
+        "url": "https://pkg.go.dev/github.com/ahmad-masud/KVStore"
+      },
+      {
+        "label": "GitHub",
+        "url": "https://github.com/ahmad-masud/KVStore"
+      }
+    ]
+  },
   {
     "title": "SurfMarc",
     "desc": "A web app for product info, price tracking, and reviews.",
