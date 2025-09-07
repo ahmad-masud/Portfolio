@@ -3,7 +3,7 @@
 A clean and minimal one-page portfolio built with **Next.js 15**, **React**, and **TailwindCSS**.  
 It supports light/dark mode (based on system preference), server-side rendering, and data-driven sections from JSON files.
 
-## ✨ Features
+## Features
 
 - About section
 - Education section (multiple entries)
@@ -14,7 +14,7 @@ It supports light/dark mode (based on system preference), server-side rendering,
 - Responsive design with TailwindCSS
 - Dark/light mode auto-detected from system
 
-## 📂 Project Structure
+## Project Structure
 
 ```
 app/
@@ -26,7 +26,7 @@ lib/types.ts        # shared TypeScript types
 
 Each section reads from its corresponding JSON file in `data/`.
 
-## 🚀 Getting Started
+## Getting Started
 
 ### 1. Install dependencies
 
@@ -56,7 +56,7 @@ npm run start
 1. Push your repo to GitHub/GitLab/Bitbucket.
 2. Go to [Vercel](https://vercel.com), import the project.
 3. It auto-detects Next.js and deploys.
-4. Done! 🎉
+4. Done!
 
 ### Netlify
 
@@ -86,6 +86,6 @@ Use a process manager like **PM2** or systemd, and reverse proxy with Nginx.
 - Modify styles via Tailwind classes in components.
 - Add/remove sections by editing `app/page.tsx` and components.
 
-## 📜 License
+## License
 
 MIT — free to use and modify.
