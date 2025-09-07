@@ -1,4 +1,4 @@
-export type About = { name: string; intro: string };
+export type About = { about_name: string; footer_name: string; intro: string };
 export type Job = {
   role: string;
   company: string;

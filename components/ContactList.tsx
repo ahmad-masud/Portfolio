@@ -1,4 +1,5 @@
 import { Contact } from "@/lib/types";
+
 export function ContactList({ id, data }: { id: string; data: Contact }) {
   return (
     <section id={id} className="py-10">

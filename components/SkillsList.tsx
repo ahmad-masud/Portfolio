@@ -1,4 +1,5 @@
 import { SkillCategory } from "@/lib/types";
+
 export function SkillsList({
   id,
   categories,

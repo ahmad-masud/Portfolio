@@ -1,4 +1,5 @@
 import { Job } from "@/lib/types";
+
 export function ExperienceList({ id, items }: { id: string; items: Job[] }) {
   return (
     <section id={id} className="py-10">
@@ -7,7 +8,8 @@ export function ExperienceList({ id, items }: { id: string; items: Job[] }) {
         {items.map((job, i) => (
           <li
             key={i}
-            className="rounded-xl border border-gray-200 dark:border-neutral-800 p-4"
+            className="rounded-xl border border-gray-200 dark:border-neutral-800 p-4
+                       bg-gradient-to-br from-gray-400/10 to-transparent dark:from-gray-500/15"
           >
             <div className="flex items-baseline justify-between gap-4">
               <p className="font-medium truncate">{job.company}</p>

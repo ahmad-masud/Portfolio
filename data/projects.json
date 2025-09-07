@@ -1,5 +1,5 @@
 [
-    {
+  {
     "title": "KVStore",
     "desc": "A lightweight, extensible, and customizable Key-Value Store library in Go, served over gRPC.",
     "tags": ["Go", "gRPC", "TCP/IP", "Protocol Buffers"],

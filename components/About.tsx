@@ -1,9 +1,12 @@
 import { About as AboutT } from "@/lib/types";
+
 export function About({ id, data }: { id: string; data: AboutT }) {
   return (
     <section id={id} className="py-12 sm:py-16">
-      <h1 className="text-3xl sm:text-4xl font-semibold tracking-tight">
-        {data?.name ? `Hi, I am ${data.name}` : "Hi, I am Your Name"}
+      <h1 className="text-3xl sm:text-6xl font-semibold tracking-tight">
+        {data?.about_name
+          ? `Hi, I am ${data.about_name}`
+          : "Hi, I am Your Name"}
       </h1>
       <p className="mt-3 text-base sm:text-lg leading-relaxed text-gray-700 dark:text-neutral-300 max-w-prose">
         {data?.intro ??
