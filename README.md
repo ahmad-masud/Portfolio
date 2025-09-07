@@ -49,7 +49,7 @@ npm run build
 npm run start
 ```
 
-## ☁️ Deployment
+## Deployment
 
 ### Vercel (recommended)
 
