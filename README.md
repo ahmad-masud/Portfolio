@@ -80,7 +80,7 @@ npm run start
 
 Use a process manager like **PM2** or systemd, and reverse proxy with Nginx.
 
-## 🛠 Customization
+## Customization
 
 - Update JSON files in `data/` to change content.
 - Modify styles via Tailwind classes in components.
