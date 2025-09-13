@@ -46,10 +46,22 @@ export default function Portfolio() {
       </main>
 
       <footer className="mx-auto max-w-5xl px-4 sm:px-6 py-10 text-sm text-gray-600 dark:text-neutral-400">
-        <p>
-          © {new Date().getFullYear()}{" "}
-          {(about as AboutT)?.footer_name ?? "Your Name"}. All rights reserved.
-        </p>
+        <div className="flex flex-col sm:flex-row sm:justify-between gap-2">
+          <p>
+            © {new Date().getFullYear()} {(about as AboutT)?.footer_name ?? "Your Name"}. All rights reserved.
+          </p>
+          <p>
+            Use this design for your own portfolio. Check it out on{" "}
+            <a
+              href="https://github.com/ahmad-masud/Portfolio"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-blue-600 hover:underline dark:text-blue-400"
+            >
+              GitHub
+            </a>.
+          </p>
+        </div>
       </footer>
     </div>
   );
