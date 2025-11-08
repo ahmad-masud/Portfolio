@@ -1,16 +1,16 @@
 [
   {
-    "title": "KVStore",
-    "desc": "A lightweight, extensible, and customizable Key-Value Store library in Go, served over gRPC.",
-    "tags": ["Go", "gRPC", "TCP/IP", "Protocol Buffers"],
+    "title": "dkvs",
+    "desc": "A distributed key-value store implemented in Go with gRPC and HashiCorp Raft.",
+    "tags": ["Go", "gRPC", "TCP/IP", "Protocol Buffers", "HashiCorp Raft", "Raft BoltDB"],
     "links": [
       {
         "label": "Docs",
-        "url": "https://pkg.go.dev/github.com/ahmad-masud/KVStore"
+        "url": "https://pkg.go.dev/github.com/ahmad-masud/dkvs"
       },
       {
         "label": "GitHub",
-        "url": "https://github.com/ahmad-masud/KVStore"
+        "url": "https://github.com/ahmad-masud/dkvs"
       }
     ]
   },
@@ -72,7 +72,7 @@
     "links": [
       {
         "label": "Live",
-        "url": "https://compcode.tech"
+        "url": "https://compcode.vercel.app"
       },
       {
         "label": "GitHub",
