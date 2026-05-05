@@ -1,16 +1,31 @@
 [
   {
     "role": "Software Engineer Intern",
+    "company": "Cloudflare",
+    "image": "/cloudflare.jpg",
+    "imageAlt": "Cloudflare logo",
+    "period": "June 2026 - Present",
+    "location": "Austin, TX",
+    "points": [
+      "Working on Cloudflare's Argo Smart Routing product"
+    ]
+  },
+  {
+    "role": "Software Engineer Intern",
     "company": "Visier",
-    "period": "Sep 2025 - Present",
+    "image": "/visier.jpg",
+    "imageAlt": "Visier logo",
+    "period": "Sep 2025 - Apr 2026",
     "location": "Vancouver, BC",
     "points": [
-      "Creating scalable, data-intensive solutions as part of the core platform infrastructure team"
+      "Created scalable, data-intensive solutions as part of the platform framework team"
     ]
   },
   {
     "role": "Software Engineer Intern",
     "company": "Hitachi Rail",
+    "image": "/hitachi.jpg",
+    "imageAlt": "Hitachi Rail logo",
     "period": "Sep 2024 - Apr 2025",
     "location": "Toronto, ON",
     "points": [

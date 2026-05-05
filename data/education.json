@@ -2,6 +2,8 @@
   {
     "school": "Simon Fraser University",
     "degree": "Bachelor of Science",
+    "image": "/sfu.jpg",
+    "imageAlt": "Simon Fraser University logo",
     "field": "Computer Science",
     "period": "2022 to Present",
     "location": "Burnaby, BC",
@@ -13,6 +15,8 @@
   {
     "school": "Burnaby North Secondary School",
     "degree": "High School Diploma",
+    "image": "/bns.jpg",
+    "imageAlt": "Burnaby North Secondary School logo",
     "field": "",
     "period": "2017 to 2022",
     "location": "Burnaby, BC",

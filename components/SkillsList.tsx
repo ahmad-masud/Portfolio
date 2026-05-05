@@ -9,7 +9,7 @@ export function SkillsList({
 }) {
   return (
     <section id={id} className="py-10">
-      <h2 className="text-2xl font-semibold">Skills</h2>
+      <h2 className="text-2xl font-semibold section-title">Skills</h2>
       <div className="mt-4 space-y-6">
         {categories.map((cat, i) => (
           <div key={i}>
