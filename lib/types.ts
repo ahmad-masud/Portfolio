@@ -23,7 +23,7 @@ export type Project = {
   desc: string;
   tags?: string[];
   links?: { label: string; url: string }[];
-};; icon?: string
+};
 export type SkillCategory = { category: string; items: string[] };
 export type Contact = {
   blurb?: string;

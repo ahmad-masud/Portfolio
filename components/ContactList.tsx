@@ -1,3 +1,4 @@
+import Image from "next/image";
 import { Contact } from "@/lib/types";
 
 export function ContactList({ id, data }: { id: string; data: Contact }) {
@@ -18,7 +19,13 @@ export function ContactList({ id, data }: { id: string; data: Contact }) {
             title={item.text ?? item.label}
           >
             {item.icon && (
-              <img src={item.icon} alt={item.text ?? item.label} className="w-12 h-12 rounded-lg" />
+              <Image
+                src={item.icon}
+                alt={item.text ?? item.label}
+                width={48}
+                height={48}
+                className="rounded-lg"
+              />
             )}
           </a>
         ))}

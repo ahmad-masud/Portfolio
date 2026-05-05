@@ -48,7 +48,9 @@ export default function Portfolio() {
       <footer className="mx-auto max-w-5xl px-4 sm:px-6 py-10 text-sm text-gray-600 dark:text-neutral-400">
         <div className="flex flex-col sm:flex-row sm:justify-between gap-2">
           <p>
-            © {new Date().getFullYear()} {(about as AboutT)?.footer_name ?? "Your Name"}. All rights reserved.
+            © {new Date().getFullYear()}{" "}
+            {(about as AboutT)?.footer_name ?? "Your Name"}. All rights
+            reserved.
           </p>
           <p>
             Use this design for your own portfolio. Check it out on{" "}
@@ -59,7 +61,8 @@ export default function Portfolio() {
               className="text-blue-600 hover:underline dark:text-blue-400"
             >
               GitHub
-            </a>.
+            </a>
+            .
           </p>
         </div>
       </footer>

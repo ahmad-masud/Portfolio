@@ -1,8 +1,20 @@
 {
   "blurb": "You can reach me on any of these",
   "items": [
-    { "text": "Email", "href": "mailto:ahmadmasud2027@gmail.com", "icon": "/email.jpg" },
-    { "text": "LinkedIn", "href": "https://www.linkedin.com/in/ahmadmasud", "icon": "/linkedin.jpg" },
-    { "text": "GitHub", "href": "https://github.com/ahmad-masud", "icon": "/github.jpg" }
+    {
+      "text": "Email",
+      "href": "mailto:ahmadmasud2027@gmail.com",
+      "icon": "/email.jpg"
+    },
+    {
+      "text": "LinkedIn",
+      "href": "https://www.linkedin.com/in/ahmadmasud",
+      "icon": "/linkedin.jpg"
+    },
+    {
+      "text": "GitHub",
+      "href": "https://github.com/ahmad-masud",
+      "icon": "/github.jpg"
+    }
   ]
 }

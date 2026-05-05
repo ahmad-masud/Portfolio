@@ -2,7 +2,14 @@
   {
     "title": "dkvs",
     "desc": "A distributed key-value store implemented in Go with gRPC and HashiCorp Raft.",
-    "tags": ["Go", "gRPC", "TCP/IP", "Protocol Buffers", "HashiCorp Raft", "Raft BoltDB"],
+    "tags": [
+      "Go",
+      "gRPC",
+      "TCP/IP",
+      "Protocol Buffers",
+      "HashiCorp Raft",
+      "Raft BoltDB"
+    ],
     "links": [
       {
         "label": "Docs",
