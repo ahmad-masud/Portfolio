@@ -27,5 +27,5 @@ export type Project = {
 export type SkillCategory = { category: string; items: string[] };
 export type Contact = {
   blurb?: string;
-  items: { label: string; href: string; text?: string }[];
+  items: { href: string; label?: string; text?: string; icon?: string }[];
 };
