@@ -5,7 +5,7 @@
     "image": "/sfu.jpg",
     "imageAlt": "Simon Fraser University logo",
     "field": "Computer Science",
-    "period": "Sep 2022 to Present",
+    "period": "Sep 2022 - Present",
     "location": "Burnaby, BC",
     "points": [
       "3rd Year Cumulative Average: 4.08/4.33 (94.23%)",
@@ -19,7 +19,7 @@
     "image": "/bns.jpg",
     "imageAlt": "Burnaby North Secondary School logo",
     "field": "",
-    "period": "Sep 2017 to Jun 2022",
+    "period": "Sep 2017 - Jun 2022",
     "location": "Burnaby, BC",
     "points": ["Cumulative GPA: 3.97/4.0"]
   }

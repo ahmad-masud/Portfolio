@@ -19,7 +19,8 @@
         "label": "GitHub",
         "url": "https://github.com/ahmad-masud/dkvs"
       }
-    ]
+    ],
+    "image": "/dkvs.jpg"
   },
   {
     "title": "SurfMarc",
@@ -46,7 +47,8 @@
         "label": "GitHub",
         "url": "https://github.com/ahmad-masud/SurfMarc"
       }
-    ]
+    ],
+    "image": "/surfmarc.jpg"
   },
   {
     "title": "AppliSense",
@@ -61,7 +63,8 @@
         "label": "GitHub",
         "url": "https://github.com/ahmad-masud/AppliSense"
       }
-    ]
+    ],
+    "image": "/applisense.jpg"
   },
   {
     "title": "CompCode",
@@ -85,7 +88,8 @@
         "label": "GitHub",
         "url": "https://github.com/ahmad-masud/CompCode"
       }
-    ]
+    ],
+    "image": "/compcode.jpg"
   },
   {
     "title": "Linux Memory Allocator",
@@ -96,7 +100,8 @@
         "label": "GitHub",
         "url": "https://github.com/ahmad-masud/Linux-Memory-Allocator"
       }
-    ]
+    ],
+    "image": "/lma.jpg"
   },
   {
     "title": "Linux Shell",
@@ -107,7 +112,8 @@
         "label": "GitHub",
         "url": "https://github.com/ahmad-masud/Linux-Shell"
       }
-    ]
+    ],
+    "image": "/linuxshell.jpg"
   },
   {
     "title": "SFU Hikers Hub",
@@ -125,7 +131,8 @@
         "label": "GitHub",
         "url": "https://github.com/TonyDEChen/SFU-Hikers-Hub"
       }
-    ]
+    ],
+    "image": "/sfuhikershub.jpg"
   },
   {
     "title": "Research Grant Council Database",
@@ -136,7 +143,8 @@
         "label": "GitHub",
         "url": "https://github.com/ahmad-masud/Research-Grant-Council-Database"
       }
-    ]
+    ],
+    "image": "/rgcdb.jpg"
   },
   {
     "title": "TempTalk",
@@ -147,7 +155,8 @@
         "label": "GitHub",
         "url": "https://github.com/ahmad-masud/TempTalk"
       }
-    ]
+    ],
+    "image": "/temptalk.jpg"
   },
   {
     "title": "Database Schema Constructor",
@@ -162,7 +171,8 @@
         "label": "GitHub",
         "url": "https://github.com/ahmad-masud/Database-Schema-Constructor"
       }
-    ]
+    ],
+    "image": "/dbsc.jpg"
   },
   {
     "title": "Quant Market Predictor",
@@ -177,7 +187,8 @@
         "label": "GitHub",
         "url": "https://github.com/ahmad-masud/Quant-Market-Predictor"
       }
-    ]
+    ],
+    "image": "/qmp.jpg"
   },
   {
     "title": "DrawAnt",
@@ -188,7 +199,8 @@
         "label": "GitHub",
         "url": "https://github.com/ahmad-masud/DrawAnt"
       }
-    ]
+    ],
+    "image": "/drawant.jpg"
   },
   {
     "title": "Sorting Visualizer",
@@ -199,6 +211,7 @@
         "label": "GitHub",
         "url": "https://github.com/ahmad-masud/Sorting-Visualizer"
       }
-    ]
+    ],
+    "image": "/sortingvisualizer.jpg"
   }
 ]

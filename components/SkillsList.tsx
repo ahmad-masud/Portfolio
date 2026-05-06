@@ -8,9 +8,9 @@ export function SkillsList({
   categories: SkillCategory[];
 }) {
   return (
-    <section id={id} className="py-10">
+    <section id={id} className="py-6">
       <h2 className="text-2xl font-semibold section-title">Skills</h2>
-      <div className="mt-4 grid gap-4 md:grid-cols-2">
+      <div className="mt-4 grid gap-2 md:grid-cols-2">
         {categories.map((cat, i) => (
           <div
             key={i}
