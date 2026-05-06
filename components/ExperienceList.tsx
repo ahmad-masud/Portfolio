@@ -1,6 +1,5 @@
 import Image from "next/image";
 import { Job } from "@/lib/types";
-import { calculateDuration } from "@/lib/duration";
 
 const DEFAULT_ENTRY_IMAGE = "/default-entry.svg";
 
@@ -8,27 +7,22 @@ export function ExperienceList({ id, items }: { id: string; items: Job[] }) {
   return (
     <section id={id} className="py-10">
       <h2 className="text-2xl font-semibold section-title">Experience</h2>
-      <ul className="mt-4 space-y-4">
+      <ul className="relative mt-4 space-y-6 before:absolute before:bottom-6 before:left-6 before:top-6 before:w-px before:bg-gray-200 before:content-[''] dark:before:bg-neutral-800">
         {items.map((job, i) => {
-          const duration = calculateDuration(job.period);
           return (
-            <li
-              key={i}
-              className="rounded-xl border border-gray-200 dark:border-neutral-800 p-4
-                         bg-gradient-to-br from-gray-400/10 to-transparent dark:from-gray-500/15 card-hover"
-            >
+            <li key={i} className="relative pl-16">
+              <div className="absolute left-0 top-0 z-10 flex h-12 w-12 items-center justify-center overflow-hidden rounded-full border-2 border-gray-300 bg-white p-1.5 shadow-sm dark:border-neutral-700 dark:bg-neutral-950">
+                <Image
+                  src={job.image ?? DEFAULT_ENTRY_IMAGE}
+                  alt={job.imageAlt ?? `${job.company} logo`}
+                  width={48}
+                  height={48}
+                  sizes="48px"
+                  className="h-full w-full rounded-full object-cover"
+                />
+              </div>
               <div className="flex items-start justify-between gap-4">
                 <div className="min-w-0 flex items-start gap-3">
-                  <div className="h-12 w-12 shrink-0 overflow-hidden rounded-xl border border-gray-200 bg-white dark:border-neutral-800 dark:bg-neutral-950">
-                    <Image
-                      src={job.image ?? DEFAULT_ENTRY_IMAGE}
-                      alt={job.imageAlt ?? `${job.company} logo`}
-                      width={48}
-                      height={48}
-                      sizes="48px"
-                      className="h-full w-full object-cover"
-                    />
-                  </div>
                   <div className="min-w-0 pt-0.5">
                     <p className="font-medium truncate">{job.company}</p>
                     <p className="mt-1 text-sm text-gray-900 dark:text-neutral-200 truncate">
@@ -40,11 +34,6 @@ export function ExperienceList({ id, items }: { id: string; items: Job[] }) {
                   <p className="text-sm text-gray-600 dark:text-neutral-400">
                     {job.period}
                   </p>
-                  {duration && (
-                    <p className="text-xs text-gray-500 dark:text-neutral-500 mt-0.5">
-                      {duration}
-                    </p>
-                  )}
                   {job.location ? (
                     <p className="mt-1 text-sm text-gray-600 dark:text-neutral-400">
                       {job.location}
@@ -53,7 +42,7 @@ export function ExperienceList({ id, items }: { id: string; items: Job[] }) {
                 </div>
               </div>
               {job.points && job.points.length > 0 && (
-                <ul className="mt-3 list-disc pl-5 text-sm text-gray-700 dark:text-neutral-300 space-y-1">
+                <ul className="mt-3 list-disc pl-5 text-sm text-gray-600 marker:text-gray-400 dark:text-neutral-400 dark:marker:text-neutral-600 space-y-1">
                   {job.points.map((pt, j) => (
                     <li key={j}>{pt}</li>
                   ))}

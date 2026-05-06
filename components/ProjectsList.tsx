@@ -9,7 +9,7 @@ export function ProjectsList({ id, items }: { id: string; items: Project[] }) {
           <article
             key={i}
             className="rounded-xl border border-gray-200 dark:border-neutral-800 p-4
-                       bg-gradient-to-br from-gray-400/10 to-transparent dark:from-gray-500/15 card-hover"
+                       bg-gradient-to-br from-gray-400/10 to-transparent dark:from-gray-500/15"
           >
             <div className="flex flex-col sm:flex-col gap-2 h-full">
               <div className="min-w-0 flex-1">

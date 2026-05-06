@@ -2,16 +2,17 @@
   {
     "category": "Programming Languages",
     "items": [
+      "Python",
+      "Java",
+      "Scala",
       "C",
       "C++",
-      "Java",
-      "JavaScript",
-      "TypeScript",
-      "Python",
-      "Ruby",
-      "Lua",
       "Go",
-      "Scala"
+      "TypeScript",
+      "JavaScript",
+      "SQL",
+      "Ruby",
+      "Lua"
     ]
   },
   {
@@ -19,6 +20,8 @@
     "items": [
       "HTML",
       "CSS",
+      "React",
+      "Angular",
       "React.js",
       "Next.js",
       "Gatsby",
@@ -28,25 +31,36 @@
   },
   {
     "category": "Backend Development",
-    "items": ["Node.js", "Express.js", "Spring", "GraphQL", "FastAPI"]
+    "items": ["Node.js", "Express.js", "Spring Boot", "FastAPI", "GraphQL"]
   },
   {
     "category": "Databases",
-    "items": ["MySQL", "PostgreSQL", "SQLite", "MongoDB"]
+    "items": [
+      "PostgreSQL",
+      "MongoDB",
+      "Cassandra",
+      "DynamoDB",
+      "Supabase",
+      "Firebase",
+      "MySQL",
+      "SQLite"
+    ]
   },
   {
     "category": "DevOps & Cloud",
     "items": [
       "Git",
       "GitHub",
-      "BitBucket",
       "Jenkins",
+      "CI/CD Pipelines",
       "Docker",
       "Kubernetes",
-      "JFrog",
+      "AWS",
+      "GCP",
       "Linux",
-      "Google Cloud",
-      "Firebase",
+      "Artifactory",
+      "BitBucket",
+      "JFrog",
       "Jira"
     ]
   },
