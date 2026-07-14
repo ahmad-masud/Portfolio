@@ -1,5 +1,14 @@
 [
   {
+    "role": "Incoming Software Engineer Intern",
+    "company": "Amazon Web Services",
+    "image": "/aws.jpg",
+    "imageAlt": "AWS logo",
+    "period": "Sep 2026",
+    "location": "Vancouver, BC",
+    "points": ["Working on AWS S3 Load Balancing"]
+  },
+  {
     "role": "Software Engineer Intern",
     "company": "Cloudflare",
     "image": "/cloudflare.jpg",
