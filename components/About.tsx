@@ -1,7 +1,15 @@
 import Image from "next/image";
-import { About as AboutT } from "@/lib/types";
+import { About as AboutT, Contact as ContactT } from "@/lib/types";
 
-export function About({ id, data }: { id: string; data: AboutT }) {
+export function About({
+  id,
+  data,
+  contact,
+}: {
+  id: string;
+  data: AboutT;
+  contact: ContactT;
+}) {
   return (
     <section id={id} className="py-12 sm:py-16">
       <div className="flex flex-col md:flex-row items-start md:items-center gap-6">
@@ -31,16 +39,35 @@ export function About({ id, data }: { id: string; data: AboutT }) {
           <div className="mt-4 flex flex-wrap gap-3">
             <a
               href="#projects"
-              className="inline-block rounded-lg border border-gray-200 dark:border-neutral-800 px-3 py-1.5 text-sm hover:bg-gray-50 dark:hover:bg-neutral-900 transition-colors duration-200"
+              className="inline-flex h-10 items-center justify-center rounded-lg border border-gray-200 px-3 text-xs leading-none whitespace-nowrap transition-colors duration-200 hover:bg-gray-50 dark:border-neutral-800 dark:hover:bg-neutral-900"
             >
               See projects
             </a>
-            <a
-              href="#contact"
-              className="inline-block rounded-lg bg-gradient-to-r from-gray-900 to-blue-900 dark:from-neutral-100 dark:to-blue-300 text-white dark:text-neutral-950 px-3 py-1.5 text-sm hover:shadow-lg hover:shadow-blue-500/30 dark:hover:shadow-blue-400/30 transition-all duration-200"
-            >
-              Contact
-            </a>
+            {contact.items.map((item) => {
+              const label = item.text ?? item.label ?? "Contact link";
+
+              return (
+                <a
+                  key={item.href}
+                  href={item.href}
+                  target={item.href.startsWith("http") ? "_blank" : undefined}
+                  rel={item.href.startsWith("http") ? "noreferrer" : undefined}
+                  aria-label={label}
+                  title={label}
+                  className="inline-flex items-center justify-center transition-opacity duration-200 hover:opacity-80 focus:outline-none"
+                >
+                  {item.icon && (
+                    <Image
+                      src={item.icon}
+                      alt={label}
+                      width={40}
+                      height={40}
+                      className="rounded-lg"
+                    />
+                  )}
+                </a>
+              );
+            })}
           </div>
         </div>
       </div>
