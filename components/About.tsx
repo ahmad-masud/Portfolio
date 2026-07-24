@@ -13,18 +13,6 @@ export function About({
   return (
     <section id={id} className="py-12 sm:py-16">
       <div className="flex flex-col md:flex-row items-start md:items-center gap-6">
-        <div className="flex-shrink-0">
-          <div className="relative w-24 h-24 sm:w-28 sm:h-28 md:w-32 md:h-32 rounded-full overflow-hidden ring-1 ring-neutral-800 dark:ring-gray-200">
-            <Image
-              src="/pfp.jpg"
-              alt={(data?.about_name ?? "Profile") + " profile"}
-              fill
-              sizes="(max-width: 640px) 96px, 128px"
-              className="object-cover"
-            />
-          </div>
-        </div>
-
         <div>
           <h1 className="text-3xl sm:text-5xl md:text-4xl font-semibold tracking-tight gradient-text">
             {data?.about_name
