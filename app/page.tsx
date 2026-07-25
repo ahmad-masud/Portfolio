@@ -33,7 +33,11 @@ export default function Portfolio() {
       />
 
       <main className="mx-auto max-w-5xl px-4 sm:px-6">
-        <About id="about" data={about as AboutT} contact={contact as ContactT} />
+        <About
+          id="about"
+          data={about as AboutT}
+          contact={contact as ContactT}
+        />
         <EducationList id="education" items={education as EducationT[]} />
         <ExperienceList id="experience" items={experience as Job[]} />
         <ProjectsList id="projects" items={projectList} />

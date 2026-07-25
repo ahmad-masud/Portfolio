@@ -14,7 +14,12 @@
     {
       "text": "GitHub",
       "href": "https://github.com/ahmad-masud",
-      "icon": "/github.jpg"
+      "icon": "/git.jpg"
+    },
+    {
+      "text": "Leetcode",
+      "href": "https://leetcode.com/u/ahmadmasud",
+      "icon": "/leetcode.jpg"
     }
   ]
 }
